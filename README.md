@@ -10,6 +10,7 @@ Create a .env file and add
 DATABASE_URL="postgresql://username:password@localhost:5432/invoicedb?schema=public"  (With your configuration)
 
 Run the server using: npm run start:dev
+
 In case you get errors on prisma generate run this command npx prisma generate --schema=src/prisma/schema.prisma (This error is due to schema.prisma location)
 
 API Endpoints:
